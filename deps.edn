@@ -1,6 +1,6 @@
 {:paths ["src" "resources"]
  :deps {org.clojure/clojure {:mvn/version "1.11.0"}
-        io.orkes/conductor-clojure {:mvn/version "0.3.0-SNAPSHOT"}}
+        io.orkes/conductor-clojure {:mvn/version "0.3.0"}}
  :aliases
  {:run-m {:main-opts ["-m" "io-orkes.clojure-sdk-examples"]
           :exec-args []}
